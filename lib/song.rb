@@ -36,7 +36,7 @@ class Song
   def self.new_from_filename(filename)
     song = self.new
     @filename = filename
-    song.artist_name, song.name = @filename.delete_suffix(".mp3").split(" - ")
+    song.artist_name, song.name = @filename.delete_suffix(".mp3").split(" - ")   [Taylor Swift ,Country]
     song
   end
   
